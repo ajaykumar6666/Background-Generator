@@ -24,6 +24,7 @@ color2.addEventListener('input',setGradient);
 
 var copytext=document.getElementById('copytext');
 copytext.addEventListener('click',function(){
+    copytext.className='copyclass'
     navigator.clipboard.writeText(h3.textContent);
 })
 
